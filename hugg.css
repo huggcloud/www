@@ -1,19 +1,16 @@
 body {
-color : rgba(255, 255, 255, 0.984375)
-
-; font-size : 14px
-; font-weight : 400
-; font-family : 'Tajawal' , sans-serif
-
-; background-image : url('https://cdn.jsdelivr.net/gh/huggcloud/www@latest/background.png')
+background-image : url('https://cdn.jsdelivr.net/gh/huggcloud/www@2/background.png')
 ; background-size : cover
 ; background-position : center
 ; background-attachment : fixed
 ; background-repeat : no-repeat
+
+; font-family : 'Tajawal' , sans-serif
+; font-size : 14px
+; font-weight : 400
+; color : rgba(255, 255, 255, 0.984375)
 }
 
-a {text-decoration-style : dotted}
-ion-icon {display : inline-block}
 
 h1 {
 font-family : 'Montserrat' , sans-serif
@@ -28,10 +25,15 @@ font-weight : 300
 ; display : inline
 }
 
+
+a {text-decoration-style : dotted}
+ion-icon {display : inline-block}
+
 ::selection {
 color : rgba(255 , 255 , 255 , 1)
 ; background : rgba(255 , 255 , 255 , 0.15625)
 }
+
 
 @media (min-width : 640px) {}
 @media (min-width : 1280px) {}

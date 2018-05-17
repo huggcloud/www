@@ -4,6 +4,22 @@ document [`addEventListener`] (
 `DOMContentLoaded`
 
 , () => {
+const img_elements = document [`querySelectorAll`] (`img`)
+
+for (
+let iteration = 0
+; iteration < img_elements [`length`]
+; ++ iteration
+) {
+const data_src = img_elements [iteration] [`getAttribute`] (`data-src`)
+
+if (data_src) {img_elements [iteration] [`setAttribute`] (
+`src`
+, data_src
+)}
+}
+
+
 /*  if (! (`WebSocket` in window)) {
     console [`log`] (`websockets disabled`)
     return
@@ -25,8 +41,8 @@ document [`addEventListener`] (
 }
 )
 
+
 /*window [`addEventListener`] (
 `error`
-,
-log
+, log
 )*/
