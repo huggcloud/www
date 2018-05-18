@@ -1,5 +1,5 @@
 body {
-background-image : url('https://cdn.jsdelivr.net/gh/huggcloud/www@4/background.png')
+background-image : url('https://cdn.jsdelivr.net/gh/huggcloud/www@5/background.png')
 ; background-size : cover
 ; background-position : center
 ; background-attachment : fixed
@@ -34,8 +34,26 @@ font-weight : 300
 }
 
 
-a {text-decoration-style : dotted}
+a {-webkit-text-decoration-style : dotted;text-decoration-style : dotted}
 ion-icon {display : inline-block}
+
+::-moz-selection {
+color : rgba(
+255
+, 255
+, 255
+
+, 1
+)
+
+; background : rgba(
+255
+, 255
+, 255
+
+, 0.15625
+)
+}
 
 ::selection {
 color : rgba(
